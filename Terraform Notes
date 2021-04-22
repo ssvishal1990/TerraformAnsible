@@ -1,0 +1,19 @@
+Terraform modules:
+
+Module is like a container logically related and can be used together
+
+General Structure of a modules folder
+
+    Ex: Modules\<Componet nname>: main.tf 
+                                  output.tf
+                                  Readme.md 
+                                  variables.tf 
+
+    Values of ouput from modul1 can be used by Module2
+
+    terraform --auto-aprove
+
+
+You can remove specific resource by commenting that code out 
+After commenting you code when you check terraform plan
+it will treat commented code as :: I need to remove this :: 
